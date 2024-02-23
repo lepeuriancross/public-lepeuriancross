@@ -1,0 +1,24 @@
+// Styles: Carousel(s)
+/*----------------------------------------------------------------------------------------------------*/
+
+/*---------- Embla ----------*/
+
+.embla {
+	--slide-spacing: 2rem;
+	--slide-height: 19rem;
+}
+.embla__viewport {
+	overflow: hidden;
+}
+.embla__container {
+	backface-visibility: hidden;
+	// margin-left: calc(var(--slide-spacing) * -1);
+}
+
+/*---------- Logos ----------*/
+
+.carousel__slide {
+	min-width: 0;
+	// padding-left: var(--slide-spacing);
+	position: relative;
+}
